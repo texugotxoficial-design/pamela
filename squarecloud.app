@@ -3,4 +3,3 @@ MAIN=index.html
 MEMORY=256
 VERSION=recommended
 TYPE=static
-SUBDIR=dist
