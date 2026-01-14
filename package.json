@@ -10,6 +10,7 @@
     "start": "serve -s dist"
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.4.0",
     "date-fns": "^4.1.0",
     "framer-motion": "^12.26.2",
     "lucide-react": "^0.562.0",

@@ -24,7 +24,7 @@ const ContactScreen: React.FC = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: `url("/pamela.jpeg")`,
+                        backgroundImage: `url("/bio-1.jpeg")`,
                         backgroundPosition: 'center 20%'
                     }}
                 />

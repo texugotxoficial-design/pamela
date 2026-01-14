@@ -45,7 +45,7 @@ const Hero: React.FC<{ onSchedule: () => void }> = ({ onSchedule }) => (
             transition={{ duration: 0.8 }}
             className="relative h-[700px] w-full overflow-hidden rounded-[2.5rem] lux-shadow flex flex-col justify-end"
             style={{
-                backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.3) 45%, rgba(10, 8, 8, 0.95) 90%), url("/pamela2.jpeg")`,
+                backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.3) 45%, rgba(10, 8, 8, 0.95) 90%), url("/hero-1.jpeg")`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center 20%'
             }}

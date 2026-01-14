@@ -3,19 +3,18 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ALL_RESULTS = [
-    '/WhatsApp Image 2026-01-13 at 12.52.52 (1).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.52.jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.53.jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54 (1).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54 (2).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54 (3).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54 (4).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54 (5).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.54.jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.55 (1).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.55 (2).jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.52.55.jpeg',
-    '/WhatsApp Image 2026-01-13 at 12.59.49.jpeg'
+    '/result-1.jpeg',
+    '/result-2.jpeg',
+    '/result-3.jpeg',
+    '/result-4.jpeg',
+    '/result-5.jpeg',
+    '/result-6.jpeg',
+    '/result-7.jpeg',
+    '/result-8.jpeg',
+    '/result-9.jpeg',
+    '/result-10.jpeg',
+    '/result-11.jpeg',
+    '/result-12.jpeg'
 ];
 
 const ResultsCarousel: React.FC = () => {
@@ -56,7 +55,7 @@ const ResultsCarousel: React.FC = () => {
                             <img
                                 src={shuffledResults[currentIndex]}
                                 className="w-full h-full object-cover transition-transform duration-[4000ms] group-hover:scale-110"
-                                alt="Resultado"
+                                alt="Resultado de Procedimento"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
